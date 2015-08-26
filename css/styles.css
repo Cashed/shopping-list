@@ -1,0 +1,11 @@
+body {
+	background-image: url('../images/bulgarian-fridge.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.board img{
+	width: 45%;
+	margin: 15% auto;
+	display: block;
+}
