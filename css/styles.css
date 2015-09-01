@@ -1,11 +1,52 @@
+body, html {
+	height: 100%;
+}
+
 body {
 	background-image: url('../images/bulgarian-fridge.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-.board img{
+.board {
+	background-image: url('../images/board.png');
+	background-size: 100% 100%;
 	width: 45%;
-	margin: 15% auto;
+	height: 60%;
+	margin: 2% auto;
+	position: relative;
+	z-index: 1;
+	max-width: 450px;
+	min-width: 335px;
+	top: 15em;
+}
+
+.add-item{
 	display: block;
+	margin: 0 auto;
+	padding: 4em 0 0 4em;
+}
+
+.list {
+	width: 75%;
+	max-height: 80%;
+	margin: 2% auto;
+	max-width: 440px;
+	padding: 0;
+	overflow: auto;
+}
+
+.list ul {
+	list-style: none;
+	padding: 0;
+}
+
+.list ul li {
+	margin-bottom: .5em;
+	font-family: 'Reenie Beanie', sans-serif;
+	font-size: 34pt;
+}
+
+.list form {
+	margin: .5em;
 }
