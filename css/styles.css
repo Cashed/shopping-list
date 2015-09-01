@@ -18,22 +18,26 @@ body {
 	z-index: 1;
 	max-width: 450px;
 	min-width: 335px;
-	top: 15em;
+	top: 5em;
 }
 
 .add-item{
 	display: block;
 	margin: 0 auto;
-	padding: 4em 0 0 4em;
+	padding: 0;
+	text-align: center;
+    padding-top: 2em;
 }
 
 .list {
-	width: 75%;
-	max-height: 80%;
-	margin: 2% auto;
-	max-width: 440px;
-	padding: 0;
-	overflow: auto;
+	width: 86%;
+    padding: 0;
+    overflow: auto;
+    height: 64%;
+    position: absolute;
+    top: 4em;
+    left: 7%;
+    bottom: 0;
 }
 
 .list ul {
