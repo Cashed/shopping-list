@@ -15,7 +15,6 @@ body {
 	height: 60%;
 	margin: 2% auto;
 	position: relative;
-	z-index: 1;
 	max-width: 450px;
 	min-width: 335px;
 	top: 5em;
@@ -43,6 +42,7 @@ body {
 .list ul {
 	list-style: none;
 	padding: 0;
+	text-align: left;
 }
 
 .list ul li {
@@ -53,4 +53,56 @@ body {
 
 .list form {
 	margin: .5em;
+}
+
+.fa-square-o {
+	float: left;
+	margin-top: 15px;
+	margin-right: 20px;
+	height: 17px;
+	width: 17px;
+}
+
+.fa-check-square-o {
+	float: left;
+	margin-top: 15px;
+	margin-right: 20px;
+	height: 17px;
+	width: 17px;
+}
+
+.crossed-out {
+	text-decoration: line-through;
+}
+
+.fa-times {
+	color: red;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	height: 17px;
+	width: 17px;
+
+}
+
+.fa-pencil {
+	color: orange;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	height: 17px;
+	width: 17px;
+}
+
+.fa-sticky-note-o {
+	color: rgb(241, 212, 28);
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	height: 17px;
+	width: 17px;
+}
+
+.fa-sticky-note {
+	color: rgb(241, 212, 28);
 }
