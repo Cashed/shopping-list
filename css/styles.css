@@ -28,6 +28,17 @@ body {
     padding-top: 2em;
 }
 
+input{
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+button{
+	height: 30px;
+	width: 60px;
+	background-color: orange;
+}
+
 .list {
 	width: 86%;
     padding: 0;
@@ -57,16 +68,14 @@ body {
 
 .fa-square-o {
 	float: left;
-	margin-top: 15px;
-	margin-right: 20px;
+	margin-right: 30px;
 	height: 17px;
 	width: 17px;
 }
 
 .fa-check-square-o {
 	float: left;
-	margin-top: 15px;
-	margin-right: 20px;
+	margin-right: 25px;
 	height: 17px;
 	width: 17px;
 }
@@ -78,7 +87,6 @@ body {
 .fa-times {
 	color: red;
 	float: right;
-	margin-top: 15px;
 	margin-right: 20px;
 	height: 17px;
 	width: 17px;
@@ -88,8 +96,7 @@ body {
 .fa-pencil {
 	color: orange;
 	float: right;
-	margin-top: 15px;
-	margin-right: 20px;
+	margin-right: 30px;
 	height: 17px;
 	width: 17px;
 }
@@ -97,12 +104,12 @@ body {
 .fa-sticky-note-o {
 	color: rgb(241, 212, 28);
 	float: right;
-	margin-top: 15px;
-	margin-right: 20px;
+	margin-right: 30px;
 	height: 17px;
 	width: 17px;
 }
 
 .fa-sticky-note {
 	color: rgb(241, 212, 28);
+	margin-left: 10px;
 }
