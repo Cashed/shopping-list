@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	//adds item to list
 	function addItem(){
-		$('ul').append('<li><i class="fa fa-square-o"></i><i class="fa fa-times"></i><i class="fa fa-pencil"></i><i class="fa fa-sticky-note-o"></i>' + $('input#add-item').val() +'</li>');
+		$('ul').append('<li><i class="fa fa-square-o" id="checked"></i><i class="fa fa-times"></i><i class="fa fa-pencil"></i><i class="fa fa-sticky-note-o"></i>' + $('input#add-item').val() +'</li>');
 		$('input').val(''); //clears item from text field
 	}
 	//allows button to be clicked to add item
@@ -25,6 +25,19 @@ $(document).ready(function() {
 	$(document).on('click', '.fa-times', function(){
 		$(this).closest('li').remove();
 		console.log("removing");
+	});
+
+	$(document).on('click', '#checked', function(){
+		if($(this).closest('i').hasClass('fa-square-o')){
+			$(this).closest('i').removeClass('fa-square-o');
+			$(this).closest('i').addClass('fa-check-square-o');
+			$(this).closest('li').toggleClass('crossed-out');
+		}
+		else{
+			$(this).closest('i').toggleClass('fa-square-o');
+			$(this).closest('li').removeClass('crossed-out');
+		}		
+		console.log("check/uncheck");
 	});
 	
 });
